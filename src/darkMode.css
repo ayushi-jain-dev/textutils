@@ -1,0 +1,27 @@
+.dark-mode-butto {
+  background-color: #131111;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode-button:hover {
+  background-color: #fff;
+}
+
+.dark-mode-button.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode-button.active:hover {
+  background-color: #444;
+}
+
+.light {
+  background-color: #fff;
+  color: #333;
+}
